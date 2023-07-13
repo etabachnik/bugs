@@ -1,0 +1,5 @@
+Class Bug class represents each bug in the game. 
+Bugs are created with a random position on the screen and move in random directions. 
+Clicking on a bug triggers the squash method, which increments the score and removes the bug from the screen.
+The Game class manages the game logic. It keeps track of the score and timer, starts and ends the game,
+generates bugs at regular intervals, and increments the score when a bug is squashed.
